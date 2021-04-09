@@ -1,0 +1,17 @@
+{
+  "name": "chevrotain-eval",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "addition": "yarn tsc && OP=addition node dist/index.js",
+    "eval": "yarn tsc && OP=eval node dist/index.js"
+  },
+  "dependencies": {
+    "chevrotain": "^9.0.1",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37"
+  }
+}
